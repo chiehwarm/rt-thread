@@ -25,9 +25,8 @@ static int fgets_entry(void)
     {
         ret = -1;
     }
-
-__exit:
     fclose(stream);
+__exit:
     return ret;
 }
 
